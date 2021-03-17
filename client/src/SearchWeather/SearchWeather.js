@@ -38,7 +38,7 @@ const SearchWeather = (props) => {
     } else if (submitData) {
         modal = (
             <div className={styles.Modal}>
-                <p className={[styles.Text, styles.MobileTitle].join(' ')}>{submitData.location}</p>
+                <p className={[styles.Text, styles.Title].join(' ')}>{submitData.location}</p>
                 <p className={styles.Text}>The Local Time is {submitData.local_time}</p>
                 <div className={styles.Temperature}>
                     <p>{submitData.temperature}° F</p>

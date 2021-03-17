@@ -65,6 +65,11 @@
     font-weight: bold;
 }
 
+.Title {
+    font-size: 24px;
+    font-weight: 900;
+
+}
 
 
 
@@ -85,8 +90,12 @@
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
+    .Title {
+        font-size: 22px;
+    }
     .Text {
-        font-size: 14px;
+        font-size: 18px;
     }
     .Temperature {
         font-size: 22px;
@@ -109,10 +118,15 @@
 @media (max-width:415px) {
 
     .Modal {
+        width:90vw;
         height:40vh
     }
 
-    .MobileTitle {
+    .Text {
+        font-size: 14px;
+    }
+
+    .Title {
         font-size: 18px;
         font-weight: 900;
 
