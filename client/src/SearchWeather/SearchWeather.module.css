@@ -65,6 +65,8 @@
 
 
 
+
+
 @media (max-width:1500px) {
     .Modal {
         width:60vw;
@@ -98,4 +100,12 @@
         height:8vh
     }
 
+}
+
+@media (max-width:415px) {
+    .MobileTitle {
+        font-size: 18px;
+        font-weight: 900;
+
+    }
 }
