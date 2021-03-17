@@ -44,6 +44,8 @@
     border:1px solid grey;
     border-radius: 10px ;
     font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -79,7 +81,9 @@
    
     .Modal {
         width:90vw;
-        height:55vh
+        height:55vh;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .Text {
         font-size: 14px;
@@ -103,6 +107,11 @@
 }
 
 @media (max-width:415px) {
+
+    .Modal {
+        height:40vh
+    }
+
     .MobileTitle {
         font-size: 18px;
         font-weight: 900;

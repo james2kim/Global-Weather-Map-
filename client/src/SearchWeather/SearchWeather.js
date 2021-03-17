@@ -38,7 +38,7 @@ const SearchWeather = (props) => {
     } else if (submitData) {
         modal = (
             <div className={styles.Modal}>
-                 <p className={[styles.Text, styles.MobileTitle].join(' ')}>{submitData.location}</p>
+                <p className={[styles.Text, styles.MobileTitle].join(' ')}>{submitData.location}</p>
                 <p className={styles.Text}>The Local Time is {submitData.local_time}</p>
                 <div className={styles.Temperature}>
                     <p>{submitData.temperature}° F</p>
@@ -46,8 +46,6 @@ const SearchWeather = (props) => {
                 </div>
                 <p className={styles.Text}>{submitData.forecast}</p>
                 <p className={styles.Text}>Feels Like: {submitData.feelslike}° F</p>
-                <p className={styles.Text}>Precipitation: There is a {submitData.precip * 100}% chance of rain</p>
-                
             </div>
         ) 
     } 
